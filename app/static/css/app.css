@@ -1,3 +1,36 @@
 body {
     padding-top: 5rem;
 }
+
+#button{
+    padding: 5px 15px;
+    background-color: #25dff7;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+#textbox{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+}
+
+label{
+    font-weight: bold;
+}
+
+.messages .msg{
+    padding: 10px;
+    background-color: lightgreen;
+    color: darkgreen;
+    border-radius: 10px;
+}
+
+.messages .error_msg{
+    padding: 10px;
+    background-color: rgb(221, 126, 123);
+    color: rgb(116, 4, 4);
+    border-radius: 10px;
+}
